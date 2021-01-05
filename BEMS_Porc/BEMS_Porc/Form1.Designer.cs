@@ -31,8 +31,9 @@
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.richTextBox3 = new System.Windows.Forms.RichTextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btn_Hide = new System.Windows.Forms.Button();
+            this.btn_Clear = new System.Windows.Forms.Button();
+            this.btn_Close = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // richTextBox1
@@ -65,31 +66,41 @@
             this.richTextBox3.TabIndex = 2;
             this.richTextBox3.Text = "";
             // 
-            // button1
+            // btn_Hide
             // 
-            this.button1.Location = new System.Drawing.Point(740, 444);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(107, 40);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Hide";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_Hide.Location = new System.Drawing.Point(600, 444);
+            this.btn_Hide.Name = "btn_Hide";
+            this.btn_Hide.Size = new System.Drawing.Size(110, 40);
+            this.btn_Hide.TabIndex = 3;
+            this.btn_Hide.Text = "Hide";
+            this.btn_Hide.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btn_Clear
             // 
-            this.button2.Location = new System.Drawing.Point(853, 444);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(107, 40);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "Close";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btn_Clear.Location = new System.Drawing.Point(720, 444);
+            this.btn_Clear.Name = "btn_Clear";
+            this.btn_Clear.Size = new System.Drawing.Size(110, 40);
+            this.btn_Clear.TabIndex = 4;
+            this.btn_Clear.Text = "Clear";
+            this.btn_Clear.UseVisualStyleBackColor = true;
+            // 
+            // btn_Close
+            // 
+            this.btn_Close.Location = new System.Drawing.Point(840, 444);
+            this.btn_Close.Name = "btn_Close";
+            this.btn_Close.Size = new System.Drawing.Size(110, 40);
+            this.btn_Close.TabIndex = 5;
+            this.btn_Close.Text = "Close";
+            this.btn_Close.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(980, 488);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_Close);
+            this.Controls.Add(this.btn_Clear);
+            this.Controls.Add(this.btn_Hide);
             this.Controls.Add(this.richTextBox3);
             this.Controls.Add(this.richTextBox2);
             this.Controls.Add(this.richTextBox1);
@@ -104,8 +115,9 @@
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.RichTextBox richTextBox2;
         private System.Windows.Forms.RichTextBox richTextBox3;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btn_Hide;
+        private System.Windows.Forms.Button btn_Clear;
+        private System.Windows.Forms.Button btn_Close;
     }
 }
 
