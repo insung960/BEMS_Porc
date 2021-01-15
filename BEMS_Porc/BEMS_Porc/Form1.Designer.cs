@@ -45,6 +45,7 @@
             this.richTextBox1.Size = new System.Drawing.Size(300, 420);
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
+            this.richTextBox1.ReadOnly = true;
             // 
             // richTextBox2
             // 
@@ -55,6 +56,7 @@
             this.richTextBox2.Size = new System.Drawing.Size(300, 420);
             this.richTextBox2.TabIndex = 1;
             this.richTextBox2.Text = "";
+            this.richTextBox2.ReadOnly = true;
             // 
             // richTextBox3
             // 
@@ -65,6 +67,7 @@
             this.richTextBox3.Size = new System.Drawing.Size(300, 420);
             this.richTextBox3.TabIndex = 2;
             this.richTextBox3.Text = "";
+            this.richTextBox3.ReadOnly = true;
             // 
             // btn_Hide
             // 
@@ -74,6 +77,7 @@
             this.btn_Hide.TabIndex = 3;
             this.btn_Hide.Text = "Hide";
             this.btn_Hide.UseVisualStyleBackColor = true;
+            this.btn_Hide.Click += new System.EventHandler(this.btn_Hide_Click);
             // 
             // btn_Clear
             // 
