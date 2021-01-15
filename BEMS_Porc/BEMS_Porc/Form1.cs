@@ -19,6 +19,17 @@ namespace BEMS_Porc
             InitializeComponent();
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            //DB 연결 (XML 추가)
+
+            //DB내의 값 읽어오는 부분
+
+            //실제 데이터 읽어오는부분
+
+            //실데이터 입력부분
+        }
+
         // -------------------------------------------------------------------------------
 
         //Hide 버튼 클릭

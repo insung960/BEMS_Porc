@@ -111,6 +111,7 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
+            this.Load += new System.EventHandler(this.Form1_Load);
 
         }
 
